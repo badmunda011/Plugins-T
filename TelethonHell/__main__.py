@@ -13,7 +13,7 @@ from TelethonHell.utils.startup import (join_it, logger_check, start_msg,
 from TelethonHell.version import __hellver__
 
 # Global Variables #
-HELL_PIC = "https://te.legra.ph/file/cb0bd62632a3a2b6b2726.jpg"
+HELL_PIC = "https://telegra.ph/file/50169b135b58ae3be60e1.jpg"
 
 
 # Client Starter
@@ -72,8 +72,8 @@ async def start_hellbot():
         LOGS.info("••• Starting to load Plugins •••")
         await plug_load("TelethonHell/plugins/*.py")
         await plug_channel(Hell, Config.PLUGIN_CHANNEL)
-        LOGS.info("⚡ Your HellBot Is Now Working ⚡")
-        LOGS.info("Head to @Its_HellBot for Updates. Also join chat group to get help regarding HellBot.")
+        LOGS.info("👻 Your HellBot Is Now Working 😈")
+        LOGS.info("Head to @THE_DRAMA_CLUB_01 for Updates. Also join chat group to get help regarding HellBot.")
         LOGS.info(f"» Total Clients = {str(total)} «")
         await hell_is_on(total)
     except Exception as e:
